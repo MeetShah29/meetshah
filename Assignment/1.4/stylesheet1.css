@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+   
+  }
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  @media only screen and ( min-width:400px ) {
+    .img-container{
+        display:flex;
+        justify-content: space-between;
+       
+    }
+    .image-container  img{
+        max-width: 30%;
+
+}
+
+}
